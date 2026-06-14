@@ -21,7 +21,9 @@ app.use('/api/admin', adminRouter);
 app.use('/api/blog', blogRouter);
 
 const PORT = process.env.PORT || 3000;
-
+console.log("PUBLIC:", process.env.IMAGEKIT_PUBLIC_KEY);
+console.log("PRIVATE:", process.env.IMAGEKIT_PRIVATE_KEY);
+console.log("URL:", process.env.IMAGEKIT_URL_ENDPOINT);
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });

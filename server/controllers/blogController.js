@@ -38,6 +38,8 @@ export const addBlog = async (req, res) => {
         await Blog.create({ title, subTitle, description, category, image, isPublished });
         
         res.json({ success: true, message: 'Blog added successfully' });
+         console.log(req.user);
+console.log(req.body);
 
     } catch (error) {
         return res.json({ success: false, message: error.message });
