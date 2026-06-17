@@ -1,5 +1,5 @@
 # 🚀 QuickBlog – AI-Enhanced Blogging Platform 
-[Live](https://mern-blog-app-tau.vercel.app)
+
 
 <div align="center">
 
